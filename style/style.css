@@ -1,10 +1,38 @@
 body {
     margin: 0;
+    background-color: lavender;
 }
-.nav-header{
+
+.nav-header {
     background-color: #562EFF;
-    
+
 }
-.logo-title{
+
+.logo-title {
     padding-left: 10px;
+    /* font-family: Poppins; */
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.last-item {
+    padding-right: 10px;
+}
+.top-players img {
+    width: 56px;
+    height: 56px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    /* top: 239px; */
+    /* left: 315px; */
+}
+.player-blog, .lates-course{
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid black;
+    margin-top: 50px; 
+    /* margin-top: 130px;  */
 }
