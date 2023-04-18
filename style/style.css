@@ -63,6 +63,8 @@ body {
 a {
     text-decoration: none;
 }
-.lates-course {
-
+.lates-course img{
+    width: 224px;
+    height: 104px;
+    border-radius: 5px;
 }
