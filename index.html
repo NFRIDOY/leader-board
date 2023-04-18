@@ -13,11 +13,11 @@
     <title>Idea</title>
   </head>
   <body>
-    <header class="nav-header">
-      <div class="container">
+    <header class="nav-header d-flex align-items-center">
+      <div class="container ">
         <nav class="navbar navbar-expand-lg navbar-dark ">
           <div class="container-fluid">
-            <a class="navbar-brand mb-0 h1 d-flex align-content-center text-light" href="#">
+            <a class="navbar-brand mb-0 h1 d-flex align-content-center text-light  " href="#">
               <img src="images/icons/logo.png" alt="" width="30px" height="35px" class="d-inline-block align-text-top">
               <div class="logo-title d-block">
                 Idea
@@ -52,23 +52,25 @@
     </header>
     <section class="player-blog container">
       <section class="top-player-section ">
-        <h3>Top Player</h3>
-        <div class="row row-cols-3">
-          <div class="top-players col"><img src="images/players/player-1.png" alt="">John Smith</div>
-          <div class="top-players col"><img src="images/players/player-2.png" alt="">Pro Rasel</div>
-          <div class="top-players col"><img src="images/players/player-3.png" alt="">Abu Sufian</div>
-          <div class="top-players col"><img src="images/players/player-4.png" alt="">Shajedul Karim</div>
-          <div class="top-players col"><img src="images/players/player-5.png" alt="">Maruf Ahmed</div>
-          <div class="top-players col"><img src="images/players/player-6.png" alt="">Mujahid</div>
+        <h3 class="title-color">Top Player</h3>
+        <div class="row ">
+          <div class="top-players col-md"><img src="images/players/player-1.png" alt="">John Smith</div>
+          <div class="top-players col-md"><img src="images/players/player-2.png" alt="">Pro Rasel</div>
+          <div class="top-players col-md"><img src="images/players/player-3.png" alt="">Abu Sufian</div>
+        </div>
+        <div class="row ">
+          <div class="top-players col-md"><img src="images/players/player-4.png" alt="">Shajedul Karim</div>
+          <div class="top-players col-md"><img src="images/players/player-5.png" alt="">Maruf Ahmed</div>
+          <div class="top-players col-md"><img src="images/players/player-6.png" alt="">Mujahid</div>
         </div>
   
         <hr>
       </section>
       
       <section class="top-blog">
-        <h3>Top Blog</h3>
-        <div class="row row-cols-2">
-          <div class="top-players col">
+        <h3 class="title-color">Top Blog</h3>
+        <div class="row ">
+          <div class="top-players col-md">
             <div class="d-flex">
               <div>
                 <img src="images/blogs/blog-1.png" alt="">
@@ -78,12 +80,14 @@
                   13 of My Favorite UI/UX Goodies
                 </p>
                 <p>
-                  By Danny Sapio
+                  By <a href="https://twitter.com/Dannysapio?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" rel="noopener noreferrer">
+                    Danny Sapio
+                  </a>
                 </p>
               </div>
             </div>
           </div>
-          <div class="top-players col ">
+          <div class="top-players col-md ">
             <div class="d-flex">
               <div>
                 <img src="images/blogs/blog-2.png" alt="">
@@ -93,12 +97,16 @@
                   UI cheat sheet: list vs grids
                 </p>
                 <p>
-                  By Tess Gadd
+                  By <a href="http://" target="_blank" rel="noopener noreferrer">
+                    Tess Gadd
+                  </a> 
                 </p>
               </div>
             </div>
           </div>
-          <div class="top-players col">
+        </div>
+        <div class="row">
+          <div class="top-players col-md">
             <div class="d-flex">
               <div>
                 <img src="images/blogs/blog-3.png" alt="">
@@ -108,12 +116,14 @@
                   7 typography tips for interface design
                 </p>
                 <p>
-                  By Jeremiah Lam
+                  By <a href="http://" target="_blank" rel="noopener noreferrer">
+                    Jeremiah Lam
+                  </a> 
                 </p>
               </div>
             </div>
           </div> 
-          <div class="top-players col">
+          <div class="top-players col-md">
             <div class="d-flex">
               <div>
                 <img src="images/blogs/blog-4.png" alt="">
@@ -123,11 +133,14 @@
                   Your logo is copied
                 </p>
                 <p>
-                  By Ferdinand Vogler
+                  By <a href="http://" target="_blank" rel="noopener noreferrer">
+                    Ferdinand Vogler
+                  </a> 
                 </p>
               
               </div>
             </div>
+          </div>
           </div>
             
   
@@ -137,14 +150,82 @@
       </section>
     </section>
     <section class="lates-course container">
-      <h3>Lates Course</h3>
-      <div class="row row-cols-3">
-        <div class="top-players col"><img src="images/courses/course-1.png" alt="">John Smith</div>
-        <div class="top-players col"><img src="images/courses/course-2.png" alt="">Pro Rasel</div>
-        <div class="top-players col"><img src="images/courses/course-3.png" alt="">Abu Sufian</div>
+      <h3 class="title-color">Lates Course</h3>
+      <div class="row "> 
+        <!-- row-cols-3 -->
+        <!-- col 1 -->
+        <div class="top-players col-md">
+          <div class="course-banner">
+            <img src="images/courses/course-1.png" alt="">
+          </div>
+          <div class="lates-course-details">
+            <div class="course-title">
+              <h4>React - The Complete Guide 2020</h4>
+            </div>
+            <div class="instractor">
+              Reed Krakoff.
+            </div>
+            <footer class="review-duration">
+              <div class="review">
+                <h5>5 Star</h5>
+              </div>
+              <div class="duration">
+                <h5>1:30 hrs</h5>
+              </div>
+            </footer>
 
+          </div>
+        </div>
+        <!-- col 2 -->
+        <div class="top-players col-md">
+          <div class="course-banner">
+            <img src="images/courses/course-2.png" alt="">
+          </div>
+          <div class="lates-course-details">
+            <div class="course-title">
+              <h4>Powerpoint 2020 Master Powerpoint Course</h4>
+            </div>
+            <div class="instractor">
+              Walter Scott
+            </div>
+            <footer class="review-duration">
+              <div class="review">
+                <h5>5 Star</h5>
+              </div>
+              <div class="duration">
+                <h5>1:20 hrs</h5>
+              </div>
+            </footer>
 
+          </div>
+        </div>
+
+        <!-- col 3 -->
+        <div class="top-players col-md">
+          <div class="course-banner">
+            <img src="images/courses/course-3.png" alt="">
+          </div>
+          <div class="lates-course-details">
+            <div class="course-title">
+              <h4>The Complete JavaScript Course 2020</h4>
+            </div>
+            <div class="instractor">
+              Reed Krakoff.
+            </div>
+            <footer class="review-duration">
+              <div class="review">
+                <h5>5 Star</h5>
+              </div>
+              <div class="duration">
+                <h5>1:30 hrs</h5>
+              </div>
+            </footer>
+
+          </div>
+        </div>
       </div>
+    
+        
       
 
     </section>
