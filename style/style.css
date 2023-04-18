@@ -3,24 +3,30 @@ body {
     background-color: lavender;
 }
 
+.title-color {
+    color: #562EFF;
+}
+
 .nav-header {
     background-color: #562EFF;
-
+    height: 94px;
 }
 
 .logo-title {
     padding-left: 10px;
     /* font-family: Poppins; */
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 36px;
     letter-spacing: 0em;
     text-align: left;
 
 }
+
 .last-item {
     padding-right: 10px;
 }
+
 .top-players img {
     width: 56px;
     height: 56px;
@@ -29,10 +35,34 @@ body {
     /* top: 239px; */
     /* left: 315px; */
 }
-.player-blog, .lates-course{
+
+.player-blog,
+.lates-course {
     border-radius: 5px;
     background-color: white;
     border: 2px solid black;
-    margin-top: 50px; 
+    margin-top: 50px;
     /* margin-top: 130px;  */
+}
+
+.top-blog img {
+    width: 177px;
+    height: 117px;
+}
+
+.top-blog p {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+a {
+    text-decoration: none;
+}
+.lates-course {
+
 }
