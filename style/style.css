@@ -105,14 +105,35 @@ a {
     /* max-width: 252px; */
     
     /* max-height: 270px; */
-    display: flex;
-    justify-content: center;
+    display: flex !important;
+    justify-content: center !important;
+    padding: 10px;
+    
 
 }
+.card-body {
+    margin: 0 !important;
+}
+.inner-card {
+    /* border: 1px solid;
+    width: 115%; */
+}
 .card-footer {
-    display: flex;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-content: space-between;
+    align-items: baseline; */
     border-top: none;
     background-color: white;
+    padding: 0;
+    margin: 5px;
     
+}
+.duration {
+    display: flex;
+    justify-content: end;
+}
+.review {
+    display: flex;
+    justify-content: start;
 }
