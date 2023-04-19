@@ -81,6 +81,13 @@ a {
     
     border-radius: 5px;
 }
+/* .card-img-top {
+    width: 90% !important;
+    height: auto !important;
+    
+    border-radius: 5px !important;
+} */
+
 .card-img-top {
     width: 90% !important;
     height: auto !important;
@@ -92,4 +99,20 @@ a {
 }
 .duration {
     margin-right: 40px;
+}
+.card {
+    border: 1px solid;
+    /* max-width: 252px; */
+    
+    /* max-height: 270px; */
+    display: flex;
+    justify-content: center;
+
+}
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: none;
+    background-color: white;
+    
 }
