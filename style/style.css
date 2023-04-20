@@ -137,3 +137,11 @@ a {
     display: flex;
     justify-content: start;
 }
+@media (max-width: 576px) {
+    .blogs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 50px;
+    }
+}
